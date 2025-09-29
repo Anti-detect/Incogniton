@@ -30,3 +30,30 @@ This repository contains the front-end assets for an affiliate review website. A
 
 - The CSS file uses `backdrop-filter` which may require vendor support on some browsers. For best results, test in modern Chromium-based browsers and Safari.
 - To enable the card-based mobile table, ensure your table `td` elements include `data-label` attributes matching the header text (the README examples or your templates can be adapted accordingly).
+
+## Affiliate promo
+
+- Mã giảm giá 50%: **ADBNEW50**
+- Link affiliate: https://multilogin.com/#a_aid=ADB
+
+Ví dụ: click vào nút "Mua ngay — Dùng mã ADBNEW50" trên trang để mở trang Multilogin qua đường link affiliate của chúng tôi và áp dụng mã giảm giá.
+
+## Local preview
+
+To preview the site locally, you can run a lightweight static server from this folder.
+
+Using Python 3 (built-in):
+
+```powershell
+python -m http.server 8000
+# then open http://localhost:8000 in your browser
+```
+
+Using Node (install http-server globally):
+
+```powershell
+npm install -g http-server; http-server -p 8000
+# then open http://localhost:8000
+```
+
+Open the URL in a modern browser to confirm the header, CTA, and comparison table render correctly.
