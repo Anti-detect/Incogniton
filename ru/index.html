@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Incogniton — Анонимный просмотр</title>
+  <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container" style="display:flex;align-items:center;justify-content:space-between;">
+      <div class="site-brand">
+        <span class="site-logo" aria-hidden="true"></span>
+        <span class="site-title">Incogniton</span>
+      </div>
+      <nav class="nav" aria-label="Primary navigation">
+        <a href="/ru/index.html">Главная</a>
+        <a href="/ru/index.html#compare">Сравнение</a>
+      </nav>
+      <div class="lang-select">
+        <select aria-label="Choose language">
+          <option value="en">EN</option>
+          <option value="vi">VI</option>
+          <option value="zh">ZH</option>
+          <option value="ru" selected>RU</option>
+          <option value="pt">PT</option>
+        </select>
+      </div>
+    </div>
+  </header>
+
+  <main class="container">
+    <div class="content">
+      <h2>Оставайтесь анонимными в сети</h2>
+      <p>Используйте Incogniton для управления несколькими профилями браузера и сохранения активности разделённой.</p>
+
+      <section class="cta" aria-label="Affiliate discount">
+        <div class="cta-text">
+          <h2>Специальное предложение — скидка 50%</h2>
+          <p class="muted">Используйте код <strong>ADBNEW50</strong> для получения 50% скидки на Multilogin.</p>
+        </div>
+        <div class="cta-actions">
+          <a class="btn-cta" href="https://multilogin.com/#a_aid=ADB" target="_blank" rel="noopener noreferrer">Купить — использовать ADBNEW50</a>
+          <span class="badge">Код: ADBNEW50</span>
+        </div>
+      </section>
+
+      <section id="compare" style="margin-top:28px">
+        <h3>Сравнение</h3>
+        <div class="comparison-wrap">
+          <div class="table-scroll">
+            <table class="comparison-table" aria-label="Product comparison">
+              <thead>
+                <tr>
+                  <th>Продукт</th>
+                  <th>Цена</th>
+                  <th>Функции</th>
+                  <th class="multilogin">Multilogin</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td data-label="Продукт">Incogniton</td>
+                  <td data-label="Цена">$29.99/мес</td>
+                  <td data-label="Функции">50 профилей, облачная синхронизация</td>
+                  <td class="multilogin" data-label="Multilogin">Рекомендуется</td>
+                </tr>
+                <tr>
+                  <td data-label="Продукт">Другой</td>
+                  <td data-label="Цена">$19.99/мес</td>
+                  <td data-label="Функции">20 профилей, только локально</td>
+                  <td class="multilogin" data-label="Multilogin">Ограничено</td>
+                </tr>
+                <tr>
+                  <td data-label="Продукт">Multilogin</td>
+                  <td data-label="Цена">Разное</td>
+                  <td data-label="Функции">Функции для предприятия</td>
+                  <td class="multilogin" data-label="Multilogin">Лучший</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </section>
+    </div>
+  </main>
+</body>
+</html>
