@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Documentation index
+    url: https://github.com/Anti-detect/fingerprint-browser-comparison/blob/main/docs/README.md
+    about: Browse anti-detect browser comparison guides
+  - name: Report inaccurate comparison data
+    url: https://github.com/Anti-detect/fingerprint-browser-comparison/issues/new?template=correction.md
+    about: Suggest factual corrections (not vendor impersonation)
